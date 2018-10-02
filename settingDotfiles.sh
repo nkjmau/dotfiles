@@ -21,3 +21,5 @@ ln -snf ~/dotfiles/.vimrc ~/.vimrc
 
 ln -snf ~/dotfiles/.gitconfig ~/.gitconfig
 ln -snf ~/dotfiles/.gitignore_global ~/.gitignore_global
+
+ln -snf ~/dotfiles/.tigrc ~/.tigrc
