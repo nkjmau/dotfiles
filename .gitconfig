@@ -1,0 +1,15 @@
+[user]
+	name = nkjmau
+	email = nkjmau+git@gmail.com
+[core]
+	excludesfile = ~/.gitignore_global
+[color]
+	ui = true
+ 	diff = always
+	diff-highlight = always
+[pager]
+	diff = diff-highlight | less -R
+[ghq]
+	root = ~/go/src
+[credential "https://source.developers.google.com"]
+	helper = gcloud.sh
