@@ -21,3 +21,9 @@ augroup filetypeIndent
     autocmd BufNewFile,BufRead *.js setlocal tabstop=2 shiftwidth=2 softtabstop=2
     autocmd BufNewFile,BufRead *.ts setlocal tabstop=2 shiftwidth=2 softtabstop=2
 augroup END
+
+augroup htmlAndXmlTagClose
+    autocmd!
+    autocmd FileType xml inoremap <buffer> </ </<C-x><C-o>
+    autocmd FileType html inoremap <buffer> </ </<C-x><C-o>
+augroup END
