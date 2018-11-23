@@ -6,7 +6,7 @@ repo = 'Shougo/context_filetype.vim'
 
 [[plugins]]
 repo = 'osyo-manga/vim-precious'
-depends = ['Shougo/context_filetype.vim']
+depends = ['context_filetype.vim']
 
 [[plugins]]
 repo = 'scrooloose/nerdtree'
@@ -18,7 +18,7 @@ hook_add = '''
 
 [[plugins]]
 repo = 'Xuyuanp/nerdtree-git-plugin'
-depends = ['scrooloose/nerdtree']
+depends = ['nerdtree']
 
 [[plugins]]
 repo = 'itchyny/lightline.vim'

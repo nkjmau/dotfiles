@@ -1,6 +1,7 @@
 [[plugins]]
 repo = 'Shougo/deoplete.nvim'
 on_i = 1
+depends = ['nvim-yarp', 'vim-hug-neovim-rpc']
 hook_add = '''
     let g:deoplete#enable_at_startup = 1
 '''
@@ -9,18 +10,16 @@ hook_add = '''
 repo = 'roxma/nvim-yarp'
 if = '''!has('nvim')'''
 on_i = 1
-depends = ['Shougo/deoplete.nvim']
 
 [[plugins]]
 repo = 'roxma/vim-hug-neovim-rpc'
 if = '''!has('nvim')'''
 on_i = 1
-depends = ['Shougo/deoplete.nvim']
 
 [[plugins]]
 repo = 'Shougo/neco-syntax'
 on_i = 1
-depends = ['Shougo/deoplete.nvim']
+depends = ['deoplete.nvim']
 
 [[plugins]]
 repo = 'cespare/vim-toml'
